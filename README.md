@@ -5,6 +5,8 @@ Skillbar imported from FiveM, adapted to RedM for use in scripts. Changed key de
 
 To modify the color you must modify the file 'html/style.css' line 56 and 57.
 
+To change the key you must change the hash of the key in the file 'client/main.lua' line 69 and the html text in the file 'html/index.html' line 14.
+
 # How to use
 ```lua
     local Skillbar = exports['xakra_skillbar']:GetSkillbarObject()
