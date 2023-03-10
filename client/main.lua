@@ -71,6 +71,7 @@ Citizen.CreateThread(function()
                     action = "check",
                     data = Skillbar.Data.Data,
                 })
+                Wait(1000)
             end
         end
         Citizen.Wait(t)
