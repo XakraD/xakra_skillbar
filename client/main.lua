@@ -63,10 +63,10 @@ end
 
 Citizen.CreateThread(function()
     while true do
-        local t = 500
+        local t = 100
         if Skillbar.Data.Active then
             t = 0
-            if IsControlPressed(0, 0xA95E1468) or IsControlPressed(0, 0xE6F612E4) then
+            if IsControlPressed(0, 0xA95E1468) then
                 SendNUIMessage({
                     action = "check",
                     data = Skillbar.Data.Data,
